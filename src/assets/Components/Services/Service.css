@@ -1,0 +1,226 @@
+.Services_Body{
+    background-color: var(--Primary2);
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 4rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    flex-direction: column;
+}
+
+.Services_Body .cols{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+}
+
+.Services_Body .cols .col h4{
+    font-size: 1.4rem;
+    color: var(--TextColor);
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;  
+    }
+.Services_Body .cols .col h4::before{
+    content: "*";
+}
+.Services_Body .cols .col h4::after{
+    content: "*";
+}
+
+.Services_Body .cols .col h1{
+    font-size: 3rem;
+    color:#fff;
+    font-weight: 500;
+    letter-spacing:0.1rem;
+}
+
+.Services_Body .cols .col{
+    width: 45rem;
+}
+.Services_Body .cols .col p{
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.Services_Body .cols  a{
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--TextColor);
+    color:var(--white);
+    padding: 0.7rem 2rem;
+    font-size: 1.5rem;
+    transition: background-color 0.3s;
+    border-radius: 0.4rem;
+}
+.Services_Body .cols a svg{
+    margin-left: 0.6rem;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.Services_Body .cols a:hover{
+    background-color: #0c8ac9cb;
+}
+
+.Services_Body .rows{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 6rem;
+
+}
+.Services_Body .rows .col{
+    color:#fff;
+    flex-basis: 37rem;
+    width: 40rem;
+    box-shadow: 0 0 0.16rem var(--TextColor);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.Services_Body .rows .col:hover{
+    box-shadow: 0 0 0.5rem var(--TextColor);
+    transform: translateY(-0.4rem);
+}
+
+.Services_Body .rows .col i{
+    color: var(--TextColor);
+    font-size: 3.5rem;
+    margin: 1rem 0;
+}
+
+.Services_Body .rows .col h2{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
+}
+
+.Services_Body .rows .col p{
+    font-size: 1.2rem;
+}
+
+.Services_Body .rows .col a{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--TextColor);
+    margin-top: 2rem;
+}
+
+.Services_Body .rows .col a > svg{
+    margin-left: 0.4rem;
+    font-size: 2.2rem;
+    font-weight: 200;
+    transition: margin-left 0.3s;
+}
+
+.Services_Body .rows .col a:hover svg{
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:1220px) {
+    .Services_Body .rows .col{
+        flex-basis: 35rem;
+    }
+}
+
+@media screen and (max-width:994px) {
+    .Services_Body .cols .col h1{
+        font-size: 2.7rem;
+    }
+    .Services_Body .cols .col{
+        width: 50%;
+    }
+    .Services_Body .cols a{
+        font-size: 1.4rem;
+        padding: 0.5rem 1.7rem;
+    }
+    .Services_Body .rows .col{
+        flex-basis: 35rem;
+    }
+
+    
+}
+
+@media screen and (max-width:802px) {
+    .Services_Body .cols .col h1{
+        font-size: 2.6rem;
+    }
+    .Services_Body .cols .col{
+        width: 60%;
+    }
+    .Services_Body .cols a{
+        font-size: 1.4rem;
+        padding: 0.5rem 1.7rem;
+    }
+
+
+
+    .Services_Body .rows .col{
+        flex-basis: 30rem;
+    }
+
+    .Services_Body .rows .col i{
+        font-size: 3rem;
+        margin: 0.7rem 0;
+    }
+
+    .Services_Body .rows .col h2{
+        font-size: 1.8rem;
+        margin: 0.2rem 0;
+    }
+    .Services_Body .rows .col a{
+        margin-top: 1.6rem;
+    }
+}
+
+@media screen and (max-width:674px) {
+    .Services_Body .rows .col{
+        flex-basis: 40rem;
+    }
+}
+
+@media screen and (max-width:563px){
+    .Services_Body .cols{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .Services_Body .cols .col{
+        text-align: center; 
+        width: 89%;       
+    }
+
+    .Services_Body .cols .col h4{
+        text-align: center;
+    }
+
+    .Services_Body .cols .col h1{
+        text-align: center;
+    }
+
+    .Services_Body .cols .col p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:394px){
+    .Services_Body .cols .col{
+        text-align: center; 
+        width: 100%;       
+    }
+    .Services_Body{
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+    }
+}

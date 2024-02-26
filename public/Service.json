@@ -1,0 +1,44 @@
+[
+    {
+        "id" : 1,
+        "icons" : "fa-brands fa-dev",
+        "Name" :"Web Development",
+        "desc" :"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, mollitia.",
+        "link" : "#"
+    },
+    {
+        "id" : 2,
+        "icons" : "fa-solid fa-square-poll-horizontal",
+        "Name" :"Digital Marketing",
+        "desc" :"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, mollitia.",
+        "link" : "#"
+    },
+    {
+        "id" : 3,
+        "icons" : "fab fa-wpforms",
+        "Name" :"SaaS Product",
+        "desc" :"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, mollitia.",
+        "link" : "#"
+    },
+    {
+        "id" : 4,
+        "icons" : "fa-brands fa-app-store",
+        "Name" :"Apps Development",
+        "desc" :"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, mollitia.",
+        "link" : "#"
+    },
+    {
+        "id" : 5,
+        "icons" : "fa-brands fa-searchengin",
+        "Name" :"SEO SERVICE",
+        "desc" :"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, mollitia.",
+        "link" : "#"
+    },
+    {
+        "id" : 5,
+        "icons" : "fa-regular fa-chart-bar",
+        "Name" :"Data Analysis",
+        "desc" :"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, mollitia.",
+        "link" : "#"
+    }
+]

@@ -1,0 +1,199 @@
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--Primary);
+    color:#fff;
+}
+
+.Home .rows{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.Home .rows .col{
+    width: 45rem;
+    flex: 0 0 40%;
+}
+.Home .rows .col img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.Home .rows .col .social a:nth-child(1){
+    margin-left: 0;
+}
+.Home .rows .col .social a{
+    color: #fff;
+    display:inline-block;
+    font-size: 1.6rem;
+    margin: 1rem;
+    transition:color 0.3s ease;
+}
+
+.Home .rows .col .social a:hover{
+    color: var(--TextColor);
+}
+
+.Home .rows .col h4{
+    font-size: 1.4rem;
+    color: var(--TextColor);
+    letter-spacing: 0.3rem;
+}
+
+.Home .rows .col h4::before{
+    content: "*";
+}
+.Home .rows .col h4::after{
+    content: "*";
+}
+
+.Home .rows .col h1{
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin: 1rem 0;
+}
+.Home .rows .col h1 span{
+    color:var(--TextColor)
+}
+
+.Home .rows .col p{
+    font-size:1.4rem;
+    line-height: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+}
+.Home .rows .col a.btn{
+    color: var(--TextColor);
+    font-size: 1.6rem;
+    padding: 0.5rem 3.5rem;
+    display:inline-block;
+    margin-top: 2rem;
+    border-radius:0.3rem;
+    border:0.34rem solid var(--TextColor);
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    transition: all 0.2s ease;
+}
+.Home .rows .col a.btn:hover{
+    background-color:var(--TextColor);
+    color:#fff;
+    border-color: var(--TextColor);
+}
+
+/* responsive  */
+
+@media screen and (max-width:1236px){
+    .Home .rows .col h1{
+        font-size: 3.8rem;
+    }
+}
+@media screen and (max-width:1086px) {
+    .Home .rows .col h1{
+        font-size: 3.3rem;
+    }
+    .Home .rows .col p{
+        font-size: 1.2rem;
+    }
+    .Home .rows .col a.btn{
+        font-size: 1.5rem;
+        border-width: 0.3rem;
+    }
+}
+
+@media screen and (max-width:936px){
+    .Home .rows .col h1{
+        font-size: 2.7rem;
+        line-height: 3rem;
+    }
+
+    .Home .rows .col a.btn{
+        font-size: 1.3rem;
+        border-width: 0.28rem;
+    }
+}
+
+@media screen and (max-width:772px) {
+    .Home .rows .col h1{
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+
+    .Home .rows .col p{
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .Home .rows .col a.btn{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .Home{
+        padding: 10rem 0;
+        height: auto;
+    }
+    .Home .rows{
+        flex-direction:column;
+    }
+
+    .Home .rows .col:nth-child(2){
+        flex: 0 0 90%;
+        margin: 4rem 0;
+        width: 30rem;
+    }
+
+    .Home .rows .col:nth-child(1){
+        flex: 0 0 60%;
+        width: 80%;
+    }
+
+    .Home .rows .col .social a{
+        font-size: 2rem;
+    }
+    .Home .rows .col h1{
+        font-size: 3.4rem;
+        line-height: 4.2rem;
+    }
+    .Home .rows .col p{
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        font-weight:400;
+        text-align:justify;
+    }
+
+    .Home .rows .col p::first-letter{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .Home .rows .col h1{
+        font-size: 3rem;
+        line-height: 3.4rem;
+    }
+
+    .Home .rows .col p{
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+
+    .Home .rows .col p::first-letter{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .Home.rows .col .social a{
+        font-size: 1.4rem;
+    }
+    .Home .rows .col h1{
+        font-size: 2.2rem;
+        line-height: 2.7rem;
+    }
+    .Home .rows .col p{
+        font-size: 1.2rem;
+    }
+}
